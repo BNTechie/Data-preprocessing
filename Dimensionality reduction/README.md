@@ -47,7 +47,7 @@ PCA involves the following key steps:
 - **Finding eigenvalues and eigenvectors of the covariance matrix**
 - **Selecting the top k principal components**
 - **Transforming the original data into the new k-dimensional space**
-
+  
 
 ### Linear Discriminant Analysis (LDA):
 
