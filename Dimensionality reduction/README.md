@@ -3,7 +3,7 @@ Dimensionality reduction is a significant step in data analysis for high-dimensi
 ### Scenario:
 
 
-# Significance of dimensionality reduction in data analysis
+## Significance of dimensionality reduction in data analysis
 
 Dimensionality reduction is a crucial step in data analysis for several reasons. Here are some of the key benefits:
 
