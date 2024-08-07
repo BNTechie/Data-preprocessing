@@ -40,6 +40,15 @@ However, the iris dataset is not an idea example of a high-dimensional dataset. 
 
 Principal Component Analysis (PCA) is a simple yet powerful technique for dimensionality reduction. It is a linear method that transforms the data into a set of orthogonal components, known as principal components, which capture the maximum variance in the data.
 
+PCA involves the following key steps:
+
+- **Standardizing the data**.
+- **Computing the covariance matrix**
+- **Finding eigenvalues and eigenvectors of the covariance matrix**
+- **Selecting the top k principal components**
+- **Transforming the original data into the new k-dimensional space**
+
+
 
 ### Linear Discriminant Analysis (LDA):
 
