@@ -49,10 +49,12 @@ PCA involves the following key steps:
 - **Transforming the original data into the new k-dimensional space**
 
 
-
 ### Linear Discriminant Analysis (LDA):
 
-LDA is a supervised method that aims to find a linear combination of features that best separates two or more classes.
+LDA, a supervised method, aims to find a linear combination of features that best separates two or more classes. It is specifically useful when the number of samples per class is limited.
+
+LDA involves the following steps:
+
 
 ### t-Distributed Stochastic Neighbor Embedding (t-SNE):
 
