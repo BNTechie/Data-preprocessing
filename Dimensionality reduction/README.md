@@ -55,6 +55,52 @@ LDA, a supervised method, aims to find a linear combination of features that bes
 
 LDA involves the following steps:
 
+-**Assumptions**:
+Data within each class is normally distributed and different classes have the same covariance matrix.
+-**Aim**-
+Maximize the ratio of between-class variance to the within-class variance in the dataset, thus ensuring maximal separability.
+
+-**Mathematical steps**-
+1. **Compute the Mean Vectors**
+   - Compute the mean vectors for each class:
+     \[
+     \mathbf{m}_i = \frac{1}{N_i} \sum_{x \in \mathcal{D}_i} x
+     \]
+     where \( \mathbf{m}_i \) is the mean vector of class \( i \), \( N_i \) is the number of samples in class \( i \), and \( \mathcal{D}_i \) is the set of samples in class \( i \).
+
+2. **Compute the Scatter Matrices**
+   - Compute the within-class scatter matrix \( S_W \):
+     \[
+     S_W = \sum_{i=1}^k \sum_{x \in \mathcal{D}_i} (x - \mathbf{m}_i)(x - \mathbf{m}_i)^T
+     \]
+   - Compute the between-class scatter matrix \( S_B \):
+     \[
+     S_B = \sum_{i=1}^k N_i (\mathbf{m}_i - \mathbf{m})(\mathbf{m}_i - \mathbf{m})^T
+     \]
+     where \( \mathbf{m} \) is the overall mean vector of the entire dataset.
+
+3. **Compute the Eigenvectors and Eigenvalues**
+   - Solve the generalized eigenvalue problem for the matrix \( S_W^{-1} S_B \):
+     \[
+     S_W^{-1} S_B \mathbf{v} = \lambda \mathbf{v}
+     \]
+     where \( \lambda \) are the eigenvalues and \( \mathbf{v} \) are the eigenvectors.
+
+4. **Select the Linear Discriminants**
+   - Sort the eigenvectors by their corresponding eigenvalues in descending order.
+   - Select the top \( k \) eigenvectors to form a transformation matrix \( W \).
+
+5. **Transform the Data**
+   - Project the data onto the new subspace:
+     \[
+     \mathbf{Y} = \mathbf{X} \mathbf{W}
+     \]
+     where \( \mathbf{Y} \) is the transformed dataset, \( \mathbf{X} \) is the original data matrix, and \( \mathbf{W} \) is the matrix of selected eigenvectors.
+
+
+
+
+
 
 ### t-Distributed Stochastic Neighbor Embedding (t-SNE):
 
