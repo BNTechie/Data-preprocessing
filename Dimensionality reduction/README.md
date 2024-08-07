@@ -1,7 +1,7 @@
 Dimensionality reduction is a significant step in data analysis for high-dimensional data, where the number of features is reduced to simplify the model, lower computational cost, and remove issues like collinearity, overfitting, etc. The reduction techniques transform high-dimensional data into a lower-dimensional form while preserving as much information as possible.
 
 ### Scenario: 
-While working with real-life datasets, for example, in bioinformatics, we often encounter a genomics dataset with hundreds of features each representing the gene's expression level. Analyzing such a high-dimensional dataset can be computationally expensive and due to the curse of dimensionality, it can be hard to draw any meaningful insights from it. Dimensionality reduction techniques can be powerful tools to adopt in such a situation. Data can be summarized in a few significant dimensions, making it easier to visualize and interpret. 
+While working with real-life datasets, for example, in bioinformatics, we often encounter genomics datasets with hundreds of features each representing the gene's expression level. Analyzing such a high-dimensional dataset can be computationally expensive and due to the curse of dimensionality, it can be hard to draw any meaningful insights from it. Dimensionality reduction techniques can be powerful tools to adopt in such a situation. Data can be summarized in a few significant dimensions, making it easier to visualize and interpret. 
 
 
 ## Significance of dimensionality reduction in data analysis
@@ -9,7 +9,7 @@ While working with real-life datasets, for example, in bioinformatics, we often 
 Dimensionality reduction is a crucial step in data analysis for several reasons. Here are some of the key benefits:
 
 #### 1. Reduces Computational Complexity
-High-dimensional data can be computationally expensive to process. Dimensionality reduction techniques simplify the data, reducing the amount of computation needed for subsequent analysis.
+High-dimensional data can be computationally expensive to process. Dimensionality reduction techniques simplify the data, reducing the computation needed for subsequent analysis.
 
 #### 2. Mitigates the Curse of Dimensionality
 As the number of dimensions increases, the volume of the space increases exponentially, making the data sparse. This sparsity is problematic for many algorithms that rely on dense data distributions. Dimensionality reduction helps in mitigating this issue.
