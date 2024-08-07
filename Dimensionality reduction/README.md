@@ -31,12 +31,15 @@ In high-dimensional data, features can be highly correlated (multicollinearity),
 
 To illustrate these benefits, let's look at the Iris dataset. Without dimensionality reduction, it would be challenging to visualize how the three species are distributed in the feature space. Using techniques like PCA or t-SNE, we can project the data into a lower-dimensional space and visualize it: 
 [Jupyter Notebook ](https://github.com/BhadraNivedita/Dimensionality-reduction-in-R-/blob/main/Dimensionality%20reduction%20in%20R.ipynb)
+However, the iris dataset is not an idea example of a high-dimensional dataset. We will discuss this dataset for simplicity.
+
 
 ## Popular methods:
 
 ### Principal Component Analysis (PCA)
 
-PCA is a linear method for reducing the dimensionality of a dataset by projecting it onto a lower-dimensional subspace that maximizes the variance.
+Principal Component Analysis (PCA) is a simple yet powerful technique for dimensionality reduction. It is a linear method that transforms the data into a set of orthogonal components, known as principal components, which capture the maximum variance in the data.
+
 
 ### Linear Discriminant Analysis (LDA):
 
