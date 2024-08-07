@@ -1,7 +1,7 @@
-Dimensionality reduction is a significant step in data analysis for high-dimensional data where the number of features is reduced to simplify the model, lower computational cost, and remove issues like collinearity, overfitting, etc. The reduction techniques transform high-dimensional data into a lower-dimensional form while preserving as much information as possible.
+Dimensionality reduction is a significant step in data analysis for high-dimensional data, where the number of features is reduced to simplify the model, lower computational cost, and remove issues like collinearity, overfitting, etc. The reduction techniques transform high-dimensional data into a lower-dimensional form while preserving as much information as possible.
 
 ### Scenario: 
-While working with real-life datasets, for example, in Bioinformatics, we often encounter a genomics dataset with hundreds of features each representing the gene's expression level. Analyzing such a high dimensional data set can be computationally expensive and because of the curse of dimensionality, it can be hard to draw any meaningful insights from it. Dimensionality reduction techniques can be a powerful technique to adopt in such a situation. Data can be summarized in a few significant dimensions making it easier to visualize and interpret. 
+While working with real-life datasets, for example, in bioinformatics, we often encounter a genomics dataset with hundreds of features each representing the gene's expression level. Analyzing such a high-dimensional dataset can be computationally expensive and due to the curse of dimensionality, it can be hard to draw any meaningful insights from it. Dimensionality reduction techniques can be powerful tools to adopt in such a situation. Data can be summarized in a few significant dimensions, making it easier to visualize and interpret. 
 
 
 ## Significance of dimensionality reduction in data analysis
