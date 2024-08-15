@@ -7,7 +7,7 @@ Outlier detection is a crucial step in data analysis as outliers can significant
 - **Impact on Statistical Measures:** Outliers can skew mean, variance, and other statistical measures, leading to incorrect conclusions.
 
 - **Model Performance:** Outliers can negatively impact the performance of machine learning models by affecting the model’s ability to learn the underlying pattern of the data.
-- 
+  
 - **Data Quality:** Identifying and handling outliers can improve the overall quality of the dataset, leading to more reliable analysis.
 
 #### Methods for Outlier Detection and Removal in Python
